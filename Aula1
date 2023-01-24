@@ -1,0 +1,25 @@
+package fundamentos;
+
+public class AeraCircunferencia {
+
+	
+	public static void main(String[] args) {
+		double raio = 3.4;
+		final double pi = 3.14159;
+		
+		double area = pi * raio * raio;
+		double ResultadoGeral = area;
+		
+		System.out.println("Qual e a Area da Circunferencia?");
+		System.out.println("PI * Raio * Raio");
+		System.out.println("Resultado:");
+		System.out.println(ResultadoGeral);
+		
+		raio = 10;
+		area = pi * raio * raio;
+		ResultadoGeral = area;
+		System.out.println(area);
+		
+		
+	}
+}
